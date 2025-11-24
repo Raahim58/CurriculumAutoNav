@@ -1,0 +1,47 @@
+{
+  "training_results": {
+    "highway-v0": {
+      "mean_reward": 155.3750420808792,
+      "std_reward": 4.417143911949119,
+      "traffic_density": 0.3
+    },
+    "merge-v0": {
+      "mean_reward": 63.655143678188324,
+      "std_reward": 5.251082599468049,
+      "traffic_density": 0.3
+    },
+    "intersection-v0": {
+      "mean_reward": 18.333333333333332,
+      "std_reward": 6.649979114420001,
+      "traffic_density": 0.2
+    },
+    "roundabout-v0": {
+      "mean_reward": 11.944444547096888,
+      "std_reward": 3.2212641949659924,
+      "traffic_density": 0.2
+    }
+  },
+  "test_results": {
+    "highway-v0_holdout": {
+      "mean_reward": 126.24807382623355,
+      "std_reward": 58.72475541993677,
+      "traffic_density": 0.4
+    },
+    "merge-v0_holdout": {
+      "mean_reward": 29.236858040094376,
+      "std_reward": 5.753282018931566,
+      "traffic_density": 0.35
+    },
+    "intersection-v0_holdout": {
+      "mean_reward": 8.666666666666666,
+      "std_reward": 6.018490028422597,
+      "traffic_density": 0.25
+    },
+    "roundabout-v0_holdout": {
+      "mean_reward": 30.472222303350765,
+      "std_reward": 15.418893702631195,
+      "traffic_density": 0.25
+    }
+  },
+  "cumulative_timesteps": 100000
+}

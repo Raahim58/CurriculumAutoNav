@@ -1,0 +1,55 @@
+{
+  "stage_results": {
+    "Stage1_Highway_Low": {
+      "map": "highway-v0",
+      "traffic_density": 0.2,
+      "mean_reward": 141.0553362170855,
+      "std_reward": 4.190262241565987,
+      "timesteps": 25000
+    },
+    "Stage2_Merge_Medium": {
+      "map": "merge-v0",
+      "traffic_density": 0.3,
+      "mean_reward": 70.12774334351222,
+      "std_reward": 4.90258730532439,
+      "timesteps": 25000
+    },
+    "Stage3_Intersection_Medium": {
+      "map": "intersection-v0",
+      "traffic_density": 0.2,
+      "mean_reward": 20.333333333333332,
+      "std_reward": 3.8586123009300755,
+      "timesteps": 25000
+    },
+    "Stage4_Roundabout_High": {
+      "map": "roundabout-v0",
+      "traffic_density": 0.25,
+      "mean_reward": 46.86111054817835,
+      "std_reward": 0.4321207919931797,
+      "timesteps": 25000
+    }
+  },
+  "test_results": {
+    "highway-v0_holdout": {
+      "mean_reward": 179.9087909857432,
+      "std_reward": 12.572972451961535,
+      "traffic_density": 0.4
+    },
+    "merge-v0_holdout": {
+      "mean_reward": 29.236858040094376,
+      "std_reward": 5.753282018931566,
+      "traffic_density": 0.35
+    },
+    "intersection-v0_holdout": {
+      "mean_reward": 13.666666666666666,
+      "std_reward": 5.436502143433364,
+      "traffic_density": 0.25
+    },
+    "roundabout-v0_holdout": {
+      "mean_reward": 32.91666676104069,
+      "std_reward": 17.234896694969848,
+      "traffic_density": 0.3
+    }
+  },
+  "cumulative_timesteps": 100000
+}
