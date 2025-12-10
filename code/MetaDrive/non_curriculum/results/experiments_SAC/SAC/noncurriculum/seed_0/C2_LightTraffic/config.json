@@ -1,0 +1,49 @@
+{
+  "algo": "SAC",
+  "seed": 0,
+  "stage": {
+    "id": "C2",
+    "name": "C2_LightTraffic",
+    "map": 10,
+    "traffic": 0.05,
+    "budget": 200000,
+    "reward": {
+      "base_w": 1.0,
+      "speed_w": 0.08,
+      "max_speed_kmh": 80.0,
+      "collision_penalty": -8.0,
+      "offroad_penalty": -6.0,
+      "traffic_violation_penalty": -4.0,
+      "success_bonus": 12.0,
+      "step_penalty": -0.01
+    }
+  },
+  "hyperparams": {
+    "policy": "MlpPolicy",
+    "policy_kwargs": {
+      "net_arch": [
+        128,
+        128
+      ],
+      "use_sde": false
+    },
+    "learning_rate": 0.0003,
+    "batch_size": 128,
+    "buffer_size": 100000,
+    "gamma": 0.99
+  },
+  "heldout_map": {
+    "map": "SCrRXO",
+    "traffic": 0.3,
+    "reward": {
+      "base_w": 1.0,
+      "speed_w": 0.1,
+      "max_speed_kmh": 80.0,
+      "collision_penalty": -10.0,
+      "offroad_penalty": -8.0,
+      "traffic_violation_penalty": -5.0,
+      "success_bonus": 15.0,
+      "step_penalty": -0.05
+    }
+  }
+}
