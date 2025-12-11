@@ -1,4 +1,6 @@
-./DS_store
+.DS_store
 code/MetaDrive/.DS_Store
 code/MetaDrive/curriculum/.DS_Store
 code/.DS_Store
+code/MetaDrive/curriculum/**/.DS_Store
+code/MetaDrive/non_curriculum/**/.DS_Store
